@@ -40,3 +40,58 @@ rm -i -R multimedia/pictures/others
 
 11.
 mv multimedia/video/films.txt multimedia/my_films.txt
+
+#Ejercicios Tema 4
+
+1.
+654 - rw-r-xr--
+766
+777
+520 - r-x-w----
+764 - rwxrw-r--
+
+2.
+addgroup office1, office2
+
+3.
+adduser gearoid -g office1
+adduser paul -g office2
+
+4.
+adduser anna -g office2
+adduser emma -g office2
+
+5.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
