@@ -62,36 +62,28 @@ adduser anna -g office2
 adduser emma -g office2
 
 5.
+su gearoid
+cd
+touch topsecret.txt
+chmod 600 topsecret.txt
+
+6.
+touch sales.txt
+chmod g+rw sales.txt
+
+7.
+su anna
+touch amployees.txt
+chmod 664 amployees.txt
 
 
+8.
+adduser student
+cd /home/anna
+sudo cp employees.tx/home/student
+cd/home/student
+sudo chown student employees.txt
+sudo chgrp office2 employees.txt
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+17.
+No, porque n otienes acceso a la carpeta.
